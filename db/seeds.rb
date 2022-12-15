@@ -1,7 +1,7 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+puts "start seeding"
+ job_listings = Job_listing.create([
+    {job_title: "Senior Program Officer", category: "Human And resources", description: "Monitors and analyzes programme/project development and implementation; reviews relevant documents and reports; identifies problems and issues to be addressed and proposes corrective actions; liaises with relevant parties; identifies and tracks follow-up actions", qualification: "at least a bachelor's degree in a field such as human resources, accounting, business management, business administration or communications", deadline:"3rd January 2023"},
+    {job_title: "Data Analyst", category: "Data Science", description: "Review data to identify key insights into a business's customers and ways the data can be used to solve problems", qualification: "a bachelor's degree in math, statistics, economics, computer science, or another quantitative field.", deadline:"26th January 2023"},
+    {job_title: "Full stack deeloper", category: "Programming", description: "Designing user interactions on websites, developing servers, and databases for website functionality, and coding for mobile platforms.", qualification: "Degree in computer science.Strong organizational and project management skills.Proficiency with fundamental front-end languages such as HTML, CSS, and JavaScript.Familiarity with JavaScript frameworks such as Angular JS, React, and Amber.Proficiency with server-side languages such as Python, Ruby, Java, PHP, and .Net.Familiarity with database technology such as MySQL, Oracle, and MongoDB.Excellent verbal communication skills. Good problem-solving skills. Attention to detail.", deadline:"7th February 2023"}
+ ])
+puts "done seeding"
