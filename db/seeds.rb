@@ -1,3 +1,7 @@
-blogs = Blog.create([{image_url:"https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&dl=nick-morrison-FHnnjk1Yj7Y-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb", title:"The Best Entry-level jobs", content:Faker::Lorem.paragraphs(number: 25, supplemental: true)},
-{image_url:"https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&dl=andrew-neel-cckf4TsHAuw-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb", title:"Tips for relocating for a job", content:Faker::Lorem.paragraphs(number: 20, supplemental: true)},
-{image_url:"https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&dl=desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb", title:"How to stand out in an interview", content:Faker::Lorem.paragraphs(number: 35, supplemental: true)}])
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
+#   Character.create(name: "Luke", movie: movies.first)
