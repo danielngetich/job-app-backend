@@ -8,9 +8,9 @@ resources :job_listings, only: [:index, :show, :create, :update, :destroy]
   # Defines the root path route ("/")
   # root "articles#index"
   post "/signup", to: "employees#create"
-  post "/signup", to: "employers#create"
+  # post "/signup", to: "employers#create"
   get "/me", to: "employees#show"
-  get "/me", to: "employers#show"
+  # get "/me", to: "employers#show"
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
 end

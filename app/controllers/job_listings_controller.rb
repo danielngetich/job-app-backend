@@ -40,7 +40,7 @@ class JobListingsController < ApplicationController
 
     private 
     def job_listing_params
-        params.permit(:job_title, :category, :description, :qualification, :deadline)
+        params.permit(:job_title, :category_id, :description, :qualification, :deadline, :employer_id, :employee_id)
     end
 
 end
