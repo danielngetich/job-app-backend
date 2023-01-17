@@ -4,7 +4,4 @@ class Employee < ApplicationRecord
     validates :password, length: {minimum: 8}
     has_secure_password
 
-    has_many :employers, through: :job_listings
-    has_many :job_listings
-    has_many :blogs
 end

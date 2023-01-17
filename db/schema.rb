@@ -50,8 +50,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_16_090951) do
     t.string "description"
     t.string "qualification"
     t.string "deadline"
-    t.integer "employer_id"
-    t.integer "employee_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
